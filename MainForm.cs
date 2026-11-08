@@ -53,6 +53,8 @@ namespace BootLauncher
             ForeColor = Theme.Text;
             Font = new Font("Segoe UI", 9F);
             Text = "BootLauncher";
+            // 任务栏 / Alt+Tab 用的图标，取自 exe 自身嵌入的 app.ico
+            try { Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
             FormBorderStyle = FormBorderStyle.None;
             StartPosition = FormStartPosition.Manual;
             MinimumSize = new Size(720, 520);
