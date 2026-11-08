@@ -14,6 +14,18 @@ A small Windows launcher. Lay out your frequently used apps and folders as an ic
 - **自动扫描**：点“更新”扫描本机已安装的应用，批量添加。
 - **其它**：图标大小可调、开机自启、中英文界面（跟随系统或手动选择）、支持高 DPI。
 
+## 下载安装
+
+不用自己编译，直接下载现成版本：
+
+1. 打开[最新版本](https://github.com/X777T/BootLauncher/releases/latest)
+2. 在 Assets 里下载 `BootLauncher.exe`
+3. 放到任意目录双击运行；想固定位置可以放在 `D:\软件\BootLauncher\`，再建一个桌面快捷方式
+
+运行环境：Windows 10（1903 及以上）或 Windows 11，依赖系统自带的 .NET Framework 4.8，不需要安装其他组件。
+
+> exe 没有做代码签名，首次运行时 Windows SmartScreen 可能提示“Windows 已保护你的电脑”，点“更多信息”→“仍要运行”即可。下载页每个附件都带 SHA256，可以自行核对。
+
 ## 使用
 
 1. 点网格里的 **+** 添加应用，选一个程序、快捷方式或文件夹；也可以点“更新”自动扫描。
